@@ -3,6 +3,7 @@ import { ADD_NEW_PROFILE, UPLOAD_FIRST_IMAGE, UPLOAD_SECOND_IMAGE } from "../../
 import Compress from "compress.js"
 
 import "./AddForm.css"
+import { Link } from "react-router-dom"
 
 const AddForm = () => {
 
@@ -228,6 +229,9 @@ const AddForm = () => {
                     
                     <input type="submit" value="Submit" className="submit-button"/>
                 </form>
+                <div style={{ marginTop: "5%", fontSize: "22px" }}>
+                    <Link to="/showAllUserData">View all users</Link>
+                </div>
 
                 <div style={{ marginTop:"3%", fontSize:"18px", border:"2px solid cyan" }}>
                     <p>First upload both the images, </p>
