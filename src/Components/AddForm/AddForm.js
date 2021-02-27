@@ -73,7 +73,10 @@ const AddForm = () => {
                     otherImage
                 })
             }).then(data => data.json())
-            .then(json => console.log(json))
+            .then(json => {
+                console.log(json)
+                alert(json.message)
+            })
         } else {
             alert("Click on Upload images/ Fill all the fields ")
         }
