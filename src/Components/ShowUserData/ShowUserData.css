@@ -1,0 +1,26 @@
+
+.singleUserData-block {
+}
+
+.singleUserData-block > p {
+    font-size: 26px;
+}
+
+.dull {
+    opacity: 50%;
+}
+
+
+.singleUserData {
+    cursor: pointer;
+    padding: 0 10rem;
+    text-align: left;
+    margin-bottom: 5rem;
+    font-size: 22px;
+    border: 1px solid gray;
+}
+
+.singleUserData img {
+    height: 100px;
+    width: 100px;
+}
